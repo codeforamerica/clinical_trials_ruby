@@ -6,7 +6,7 @@ module ClinicalTrials
       private
 
       def connection
-        Faraday.new(:url => '') do |connection|
+        Faraday.new(:url => 'http://clinicaltrials.gov/') do |connection|
           connection.use Faraday::Request::UrlEncoded
           connection.use Faraday::Response::RaiseError
           connection.use Faraday::Response::Rashify
