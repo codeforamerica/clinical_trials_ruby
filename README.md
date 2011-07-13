@@ -1,5 +1,5 @@
 # The Clinical Trails search gem
-Allows access to the clinicaltrails.gov search api
+Allows access to the clinicaltrails.gov search [api](http://clinicaltrials.gov/ct2/info/linking)
 
 Usage
 -----
