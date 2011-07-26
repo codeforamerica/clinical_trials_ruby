@@ -4,8 +4,8 @@ require File.expand_path('../lib/clinical_trials/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name        = 'clinical_trials'
   gem.version     = ClinicalTrials::VERSION
-  gem.author      = "Code for America"
-  gem.email       = 'info@codeforamerica.org'
+  gem.author      = "blakeshall"
+  gem.email       = 'blake@codeforamerica.org'
   gem.homepage    = ''
   gem.summary     = %q{Ruby wrapper for the clinicaltrials.gov search API}
   gem.description = %q{Allows access to the clinicaltrails.gov search}
